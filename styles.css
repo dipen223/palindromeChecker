@@ -53,5 +53,15 @@ body{
     text-align: center;
     background-color:darkcyan;
     font-size: 1.3rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
+.palindrome-examples p{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.palindrome-examples li{
+    list-style: none;
+    
+}
