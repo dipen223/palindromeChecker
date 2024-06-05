@@ -65,3 +65,12 @@ body{
     list-style: none;
     
 }
+
+.palindrome-checker-div{
+    width:min(100vw,400px);
+    padding:20px;
+    background-color: white;
+    color:black;
+    border-radius:12px;
+    box-shadow: 5px 5px 10px rgb(4, 251, 202);
+}
