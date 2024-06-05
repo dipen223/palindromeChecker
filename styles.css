@@ -37,7 +37,7 @@ body{
     background-color: rgb(48, 80, 197);
     border-radius: 12px;
     margin-bottom: 20px;
-    
+     
 }
 .icon-holder{
     color:rgb(249, 112, 7);
@@ -46,3 +46,12 @@ body{
 .palindrome-definition{
     font-size: 1.5rem;
 }
+
+.palindrome-examples{
+    width:min(100vw,400px);
+    padding:20px;
+    text-align: center;
+    background-color:darkcyan;
+    font-size: 1.3rem;
+}
+
