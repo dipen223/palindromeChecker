@@ -3,8 +3,16 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --background-color:#2d2d2d;
+    --foreground-color:#ffffff;
+}
 
 body{
     font-family: "Roboto", sans-serif;
-  
+}
+
+.main{
+    background-color: var(--background-color);
+    color:var(--foreground-color)
 }
