@@ -94,3 +94,12 @@ body{
     font-size: 1.2rem;
 
 }
+#check-btn{
+    padding:.35em .45em;
+    background-color:rgb(81, 144, 131);
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+
+}
