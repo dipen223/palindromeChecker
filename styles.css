@@ -107,6 +107,6 @@ body{
     opacity: 0.5;
     cursor: pointer;
 }
-.result{
+#result{
     display: none;
 }
