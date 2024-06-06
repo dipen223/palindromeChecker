@@ -84,3 +84,13 @@ body{
     margin-bottom: 20px;
    
 }
+.text-input{
+    height: 30px;
+    width:250px;
+    margin: 12px;
+    border:2px solid rgb(48,90,197);
+    border-radius:5px;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
