@@ -20,7 +20,18 @@ function reverseString(str){
 
 function checkPalindrome(str){
     const cleanedStr = cleanInput(str);
-    const reversedStr = reverseString(str);
+    const reversedStr = reverseString(cleanedStr);
     return cleanedStr == reversedStr;
 }
 
+check_btn.addEventListener("click",() =>{
+    if(!checkIfEmpty()){
+        const isPalindrome = checkPalindrome(input_text.value);
+        if (isPalindrome){
+            result.textContent = `${input_text.value} is a palindrome.`;
+        }
+        else{
+            result.textContent = `${input_text.value} is not a palindrome.`
+        }
+    }
+})
