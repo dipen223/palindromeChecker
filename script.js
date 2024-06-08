@@ -1,5 +1,6 @@
 const input_text = document.querySelector("#text-input");
 const check_btn = document.querySelector("#check-btn");
+const result = document.querySelector("#result")
 
 function checkIfEmpty() {
     if (input_text.value.trim() === "") {
@@ -16,3 +17,10 @@ function cleanInput(str) {
 function reverseString(str){
     return str.split('').reverse().join('');
 }
+
+function checkPalindrome(str){
+    const cleanedStr = cleanInput(str);
+    const reversedStr = reverseString(str);
+    return cleanedStr == reversedStr;
+}
+
